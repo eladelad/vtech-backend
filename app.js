@@ -41,7 +41,7 @@ app.use(function(req, res, next) {
 
 
 app.use('/', index);
-app.use('/macsetup', macsetup);
+app.use('/api/macsetup', macsetup);
 app.use('/users', users);
 
 // catch 404 and forward to error handler
